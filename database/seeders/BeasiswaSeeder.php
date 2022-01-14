@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-
+use App\Models\Beasiswa;
 class BeasiswaSeeder extends Seeder
 {
     /**
@@ -14,5 +14,6 @@ class BeasiswaSeeder extends Seeder
     public function run()
     {
         //
+        Beasiswa::factory()->count(30)->create();
     }
 }

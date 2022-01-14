@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\Pelatihan;
 
 class PelatihanFactory extends Factory
 {
@@ -11,10 +12,15 @@ class PelatihanFactory extends Factory
      *
      * @return array
      */
+    protected $model = Pelatihan::class;
     public function definition()
     {
         return [
             //
+            'TITLE' => "Beasiswa" . $this->faker->jobTitle(),
+            'NAME' => $this->faker->company(),
+            'IMG_PATH' => 'https://source.unsplash.com/random',
+            'DESC' => $this->faker->realText($maxNbChars = 200, $indexSize = 2),
         ];
     }
 }

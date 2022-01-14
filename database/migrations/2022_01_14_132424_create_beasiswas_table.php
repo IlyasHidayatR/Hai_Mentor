@@ -14,7 +14,11 @@ class CreateBeasiswasTable extends Migration
     public function up()
     {
         Schema::create('beasiswas', function (Blueprint $table) {
-            $table->id();
+            $table->id("ID_BEASISWA");
+            $table->string("TITLE");
+            $table->string("NAME");
+            $table->string("IMG_PATH");
+            $table->text("DESC");
             $table->timestamps();
         });
     }

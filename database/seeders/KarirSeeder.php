@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\Karir;
+
 
 class KarirSeeder extends Seeder
 {
@@ -14,5 +16,6 @@ class KarirSeeder extends Seeder
     public function run()
     {
         //
+        Karir::factory()->count(30)->create();
     }
 }
