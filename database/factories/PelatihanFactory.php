@@ -17,7 +17,7 @@ class PelatihanFactory extends Factory
     {
         return [
             //
-            'TITLE' => "Beasiswa" . $this->faker->jobTitle(),
+            'TITLE' => $this->faker->jobTitle(),
             'NAME' => $this->faker->company(),
             'IMG_PATH' => 'https://source.unsplash.com/random',
             'DESC' => $this->faker->realText($maxNbChars = 200, $indexSize = 2),
