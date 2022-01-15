@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/beasiswa', function () {
     return view('beasiswa.beasiswa');
 });
+
+Route::get('/karir', function () {
+    return view('karir.karir');
+});
+
+Route::get('/pelatihan', function () {
+    return view('pelatihan.pelatihan');
+});
