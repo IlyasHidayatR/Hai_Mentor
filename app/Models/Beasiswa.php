@@ -9,4 +9,5 @@ class Beasiswa extends Model
 {
     use HasFactory;
     protected $fillable = ['ID_BEASISWA', "TITLE", "NAME","IMG_PATH", "DESC"];
+    protected $primaryKey = 'ID_BEASISWA';
 }

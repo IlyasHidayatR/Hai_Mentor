@@ -9,4 +9,6 @@ class Pelatihan extends Model
 {
     use HasFactory;
     protected $fillable = ['ID_PELATIHAN', "TITLE", "NAME","IMG_PATH", "DESC"];
+    protected $primaryKey = 'ID_PELATIHAN';
 }
+

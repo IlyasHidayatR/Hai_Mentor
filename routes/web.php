@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BeasiswaController;
+use App\Http\Controllers\KarirController;
+use App\Http\Controllers\PelatihanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,14 +20,12 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::get('/beasiswa', function () {
-    return view('beasiswa.beasiswa');
-});
+Route::get('/beasiswa', [BeasiswaController::class, 'index']);
+Route::get('/beasiswa/{id}', [BeasiswaController::class, 'detail']);
 
-Route::get('/karir', function () {
-    return view('karir.karir');
-});
+Route::get('/karir', [KarirController::class, 'index']);
+Route::get('/karir/{id}', [KarirController::class, 'detail']);
 
-Route::get('/pelatihan', function () {
-    return view('pelatihan.pelatihan');
-});
+Route::get('/pelatihan', [PelatihanController::class, 'index']);
+Route::get('/pelatihan/{id}', [PelatihanController::class, 'detail']);
+
