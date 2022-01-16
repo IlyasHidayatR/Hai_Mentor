@@ -22,8 +22,4 @@
     @endforelse
 
 </div>
-<<<<<<< HEAD
 @endsection
-=======
-@endsection
->>>>>>> db2475759ebfbe25b1acb2cfb9661b59a4599448
