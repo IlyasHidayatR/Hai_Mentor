@@ -20,6 +20,7 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
+<<<<<<< HEAD
 Route::get('/detailbeasiswa', function () {
     return view('beasiswa.detailbeasiswa');
 });
@@ -32,3 +33,14 @@ Route::get('/karir/{id}', [KarirController::class, 'detail']);
 
 Route::get('/pelatihan', [PelatihanController::class, 'index']);
 Route::get('/pelatihan/{id}', [PelatihanController::class, 'detail']);
+=======
+Route::get('/beasiswa', [BeasiswaController::class, 'index']);
+Route::get('/beasiswa/{id}', [BeasiswaController::class, 'detail']);
+
+Route::get('/karir', [KarirController::class, 'index']);
+Route::get('/karir/{id}', [KarirController::class, 'detail']);
+
+Route::get('/pelatihan', [PelatihanController::class, 'index']);
+Route::get('/pelatihan/{id}', [PelatihanController::class, 'detail']);
+
+>>>>>>> 16640cc81e94f8651e23ab446c705c6a624b6a73
