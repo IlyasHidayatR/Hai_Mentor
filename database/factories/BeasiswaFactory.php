@@ -17,7 +17,7 @@ class BeasiswaFactory extends Factory
     {
         return [
             //
-            'TITLE' => "Beasiswa" . $this->faker->city(),
+            'TITLE' => "Beasiswa " . $this->faker->city(),
             'NAME' => $this->faker->company(),
             'IMG_PATH' => 'https://source.unsplash.com/random',
             'DESC' => $this->faker->realText($maxNbChars = 200, $indexSize = 2),

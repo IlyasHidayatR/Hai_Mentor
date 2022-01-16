@@ -25,10 +25,10 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                         <ul class="navbar-nav mr-auto w-100">
                             <li class="nav-item active">
-                                <a class="nav-link mx-auto" style ="border-radius: nullpx; color:white; font-family: Comfortaa" href="#">Beranda <span class="sr-only">(current)</span></a>
+                                <a class="nav-link mx-3" style ="border-radius: nullpx; color:white; font-family: Comfortaa" href="#">Beranda <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link mx-auto" style ="border-radius: nullpx; color:white; font-family: Comfortaa" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link mx-3" style ="border-radius: nullpx; color:white; font-family: Comfortaa" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Informasi <i class="fas fa-angle-down"></i> 
                                 </a>
                                 <div class="dropdown-menu" style="font-family: Comfortaa" aria-labelledby="navbarDropdownMenuLink">
@@ -38,7 +38,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mx-auto" style ="border-radius: nullpx; color:white; font-family: Comfortaa" href="#">Gabung Menjadi Mentor</a>
+                                <a class="nav-link mx-3" style ="border-radius: nullpx; color:white; font-family: Comfortaa" href="#">Gabung Menjadi Mentor</a>
                             </li>
                         </ul>
                     </div>

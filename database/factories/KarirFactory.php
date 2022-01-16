@@ -16,7 +16,7 @@ class KarirFactory extends Factory
     {
         return [
             //
-            'TITLE' => "Beasiswa" . $this->faker->jobTitle(),
+            'TITLE' => $this->faker->jobTitle(),
             'NAME' => $this->faker->company(),
             'LOCATION' => $this->faker->city(),
             'END_DATE' => now(),
