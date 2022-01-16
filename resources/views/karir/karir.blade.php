@@ -26,8 +26,5 @@
     <p>data not found</p>
     @endforelse
 </div>
-<<<<<<< HEAD
 @endsection
-=======
-@endsection
->>>>>>> 16640cc81e94f8651e23ab446c705c6a624b6a73
+

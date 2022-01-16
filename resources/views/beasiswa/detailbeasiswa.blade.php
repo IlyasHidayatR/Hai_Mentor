@@ -17,6 +17,7 @@
         </div>
         <div class="col-md">
             <h6><b>Beasiswa Lainnya</b></h6>
+            <br>
             <ul class="list-group" style="list-style-type: none">
                 <li>
                     <div class="card w-75">
