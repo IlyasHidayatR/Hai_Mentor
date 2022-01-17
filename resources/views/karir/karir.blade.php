@@ -5,7 +5,7 @@
 </div>
 <div class="row justify-content-center" style="margin-bottom: 150px; font-family: Comfortaa">
     @forelse ($data as $data)
-    <div class="col col-md-4 mb-4">
+    <div class="col-md-4 mb-4">
         <div class="card"
             style="width: 18rem; padding: 1.5em .5em .5em; border-radius: 2em; box-shadow: 0 5px 10px rgba(0,0,0,.2);">
             <img src="{{$data->IMG_PATH}}" class="card-img-top" alt="...">
@@ -17,7 +17,7 @@
                         <path
                             d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                     </svg> {{$data->LOCATION}}</p>
-                <p class="card-text">ditutup pada {{$data->END_DATE}}</p>
+                <p class="card-text text-muted">ditutup pada {{$data->END_DATE}}</p>
                 <a href="beasiswa/{{$data->ID_KARIR}}" class="text-right">selengkapnya</a>
             </div>
         </div>
@@ -27,7 +27,3 @@
     @endforelse
 </div>
 @endsection
-<<<<<<< HEAD
-
-=======
->>>>>>> db2475759ebfbe25b1acb2cfb9661b59a4599448
