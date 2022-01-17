@@ -19,7 +19,7 @@
     </div>
     <div class="row justify-content-center" style="margin-bottom: 150px; font-family: Comfortaa">
     @forelse ($data as $data)
-    <div class="col col-md-4 mb-4">
+    <div class="col-md-4 mb-4">
         <div class="card"
             style="width: 18rem; padding: 1.5em .5em .5em; border-radius: 2em; box-shadow: 0 5px 10px rgba(0,0,0,.2);">
             <img src="{{$data->IMG_PATH}}" class="card-img-top" alt="...">

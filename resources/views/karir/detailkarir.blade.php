@@ -20,11 +20,20 @@
             <br>
             <ul class="list-group" style="list-style-type: none">
                 <li>
-                    <div class="card w-75">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Button</a>
+                    <div class="border-0">
+                        <div class="mb-4">
+                            <img class="mr-3 float-left" style="border-radius: 7px" src="https://colorlib.com/wp/wp-content/uploads/sites/2/Bootstrap-navbar.jpg" alt="" width="60px" height="50px">
+                            <h6 class="card-title"><b><a style="color: black" href="#">Card title</a></b></h6>
+                            <h6 class="card-subtitle text-muted"><SMall>Card Subtitle</SMall></h6>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="border-0">
+                        <div class="mb-4">
+                            <img class="mr-3 float-left" style="border-radius: 7px" src="https://colorlib.com/wp/wp-content/uploads/sites/2/Bootstrap-navbar.jpg" alt="" width="60px" height="50px">
+                            <h6 class="card-title"><b><a style="color: black" href="#">Card title</a></b></h6>
+                            <h6 class="card-subtitle text-muted"><SMall>Card Subtitle</SMall></h6>
                         </div>
                     </div>
                 </li>

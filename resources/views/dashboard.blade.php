@@ -60,14 +60,14 @@
             </div>
         </main>
         <!-- bagian footer -->
-        <footer class="text-white" style="background-color: #0A2E54; font-family: Comfortaa">
+        <footer class="text-white mt-3" style="background-color: #0A2E54; font-family: Comfortaa">
             <section class="footer-content">
                 <div class="container p-4">
                     <div class="row">
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12 mt-3">
                             <img src="https://haimentor.com/webs/img/logo-white.png" alt="" width="140px" height="30px">
                         </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12 mt-3">
                             <div class="widget">
                                 <h4 class="block-title">Site Map</h4>
                                 <ul class="list-group" style="list-style-type: none">
@@ -87,7 +87,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 col-mb-12 mt-3">
                             <div class="widget">
                                 <h4 class="block-title">Hubungi Kami</h4>
                                 <ul class="list-group" style="list-style-type: none">
@@ -101,7 +101,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 col-mb-12 mt-3">
                             <div class="widget">
                                 <h4 class="block-title">Download App</h4>
                                 <ul class="list-inline" style="list-style-type: none">
@@ -116,8 +116,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="border-top border-white p-3" style="background-color: #0A2E54; font-family: Comfortaa">
-
+                <hr width="90%" align="center" color="white">
+                <div class="p-2" style="background-color: #0A2E54; font-family: Comfortaa">
+                    
                 </div>
             </section>
         </footer>
