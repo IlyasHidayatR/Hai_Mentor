@@ -26,9 +26,12 @@ Route::get('/detailbeasiswa', function () {
 
 Route::get('/beasiswa', [BeasiswaController::class, 'index']);
 Route::get('/beasiswa/{id}', [BeasiswaController::class, 'detail']);
+Route::get('/searchbea', [BeasiswaController::class, 'searchbea']);
 
 Route::get('/karir', [KarirController::class, 'index']);
 Route::get('/karir/{id}', [KarirController::class, 'detail']);
+Route::get('/searchkarir', [KarirController::class, 'searchkarir']);
 
 Route::get('/pelatihan', [PelatihanController::class, 'index']);
 Route::get('/pelatihan/{id}', [PelatihanController::class, 'detail']);
+Route::get('/searchpelat', [PelatihanController::class, 'searchpelat']);
