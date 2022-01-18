@@ -19,7 +19,7 @@ class PelatihanController extends Controller
         return view("pelatihan.detailpelatihan",compact('pelatihan'));
     }
 
-    public function searchpelat(Request $request)
+    public function searchPelatihan(Request $request)
     {
         $cari = $request->searchpelat;
         // dd($cari);

@@ -19,7 +19,7 @@ class BeasiswaController extends Controller
         return view("beasiswa.detailbeasiswa",compact('beasiswa'));
     }
 
-    public function searchbea(Request $request)
+    public function searchBeasiswa(Request $request)
     {
         $cari = $request->searchbea;
         // dd($cari);

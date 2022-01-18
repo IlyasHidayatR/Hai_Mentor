@@ -19,7 +19,7 @@ class KarirController extends Controller
         return view("karir.detailkarir",compact('karir'));
     }
 
-    public function searchkarir(Request $request)
+    public function searchKarir(Request $request)
     {
         $cari = $request->searchkarir;
         // dd($cari);

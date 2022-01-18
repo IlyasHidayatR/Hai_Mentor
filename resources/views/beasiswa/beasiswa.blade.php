@@ -1,7 +1,7 @@
 @extends('dashboard')
 @section('content')
 <center>
-    <form action="/searchbea" method="GET" class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-4" style="margin-bottom: 60px">
+    <form action="/search/beasiswa" method="GET" class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-4" style="margin-bottom: 60px">
         <div class="input-group mr-3 w-50 border rounded" style="border-color: #0A2E54">
             <input class="form-control border-end-0 border rounded" type="search" placeholder="Search" id="example-search-input" name="searchbea">
             <span class="input-group-append">

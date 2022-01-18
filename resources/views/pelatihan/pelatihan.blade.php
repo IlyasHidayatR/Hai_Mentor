@@ -1,7 +1,7 @@
 @extends('dashboard')
 @section('content')
 <center>
-    <form action="/searchpelat" method="GET" class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-4" style="margin-bottom: 60px">
+    <form action="/search/pelatihan" method="GET" class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-4" style="margin-bottom: 60px">
         <div class="input-group mr-3 w-50 border rounded" style="border-color: #0A2E54">
             <input class="form-control border-end-0 border rounded" type="search" placeholder="Search" id="example-search-input" name="searchpelat">
             <span class="input-group-append">
@@ -27,7 +27,7 @@
                 <h5 class="card-title">{{$data->TITLE}}</h5>
                 <h6 class="card-subtitle mb-2 text-muted"><small>{{$data->NAME}}</small></h6>
                 <p class="card-text">{{$data->DESC}}</p>
-                <a href="beasiswa/{{$data->ID_PELATIHAN}}" class="text-right">selengkapnya</a>
+                <a href="pelatihan/{{$data->ID_PELATIHAN}}" class="text-right">selengkapnya</a>
             </div>
         </div>
     </div>
