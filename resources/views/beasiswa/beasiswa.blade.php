@@ -26,7 +26,7 @@
                 <h5 class="card-title">{{$data->TITLE}}</h5>
                 <h6 class="card-subtitle mb-2 text-muted"><small>{{$data->NAME}}</small></h6>
                 <p class="card-text">{{$data->DESC}}</p>
-                <a href="beasiswa/{{$data->ID_BEASISWA}}" class="text-right">selengkapnya</a>
+                <a href="/beasiswa/{{$data->ID_BEASISWA}}" class="text-right">selengkapnya</a>
             </div>
         </div>
     </div>

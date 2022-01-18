@@ -16,7 +16,9 @@ class PelatihanController extends Controller
 
     public function detail($id){
         $pelatihan = Pelatihan::find($id);
-        return view("pelatihan.detailpelatihan",compact('pelatihan'));
+        $data = Pelatihan::all();
+        return view("pelatihan.detailpelatihan",compact('pelatihan'),
+        compact('data'));
     }
 
     public function searchPelatihan(Request $request)
