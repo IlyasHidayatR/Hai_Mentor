@@ -2,7 +2,7 @@
 @section('content')
 <div class="mb-4" style="font-family: Comfortaa">
     <h4><b>{{$karir->TITLE}}</b></h4>
-    <h6 class="text-muted">{{$karir->NAME}} - 04/08, 12:52</h6>
+    <h6 class="text-muted">{{$karir->NAME}} - {{Carbon\Carbon::parse($karir->created_at)->format('d/m/Y')}} , {{Carbon\Carbon::parse($karir->created_at)->format('H:i T')}}</h6>
 </div>
 <div class="row" style="margin-bottom: 240px; font-family: Comfortaa">
     <div class="col-md-8 mr-4 mb-3">
