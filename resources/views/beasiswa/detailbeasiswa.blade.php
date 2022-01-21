@@ -26,7 +26,11 @@
             <h6><b>Beasiswa Lainnya</b></h6>
             <br>
             <ul class="list-group" style="list-style-type: none">
+<<<<<<< HEAD
             @forelse ($data1 as $data)
+=======
+            @forelse ($data as $data)
+>>>>>>> 5e72c66617564d578a5da014120cebddf5d283f6
                 <li>
                     <div class="border-0">
                         <div class="mb-4">

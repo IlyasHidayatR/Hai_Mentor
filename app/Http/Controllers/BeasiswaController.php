@@ -15,10 +15,17 @@ class BeasiswaController extends Controller
     }
 
     public function detail($id){
+<<<<<<< HEAD
         $data1 = Beasiswa::paginate(4);
         $beasiswa = Beasiswa::find($id);
         return view("beasiswa.detailbeasiswa",compact('beasiswa'),
         compact('data1'));
+=======
+        $data = Beasiswa::all();
+        $beasiswa = Beasiswa::find($id);
+        return view("beasiswa.detailbeasiswa",compact('beasiswa'),
+        compact('data'));
+>>>>>>> 5e72c66617564d578a5da014120cebddf5d283f6
     }
 
     public function searchBeasiswa(Request $request)
