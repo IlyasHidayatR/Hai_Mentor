@@ -13,8 +13,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(BeasiswaSeeder::class);
-        $this->call(KarirSeeder::class);
-        $this->call(PelatihanSeeder::class);
+        // \App\Models\User::factory(10)->create();
     }
 }
