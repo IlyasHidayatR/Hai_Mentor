@@ -31,11 +31,7 @@
                             d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                     </svg> {{$data->LOCATION}}</p>
                 <p class="card-text text-muted">ditutup pada {{$data->END_DATE}}</p>
-<<<<<<< HEAD
                 <a href="karir/{{$data->ID_KARIR}}" class="text-right mb-2 mr-1">selengkapnya</a>
-=======
-                <a href="karir/{{$data->ID_KARIR}}" class="text-right">selengkapnya</a>
->>>>>>> 5e72c66617564d578a5da014120cebddf5d283f6
             </div>
         </div>
     </div>
