@@ -25,11 +25,7 @@
             <div class="card border-0 p-2" style="border-radius: 2em">
                 <h5 class="card-title max-title">{{$data->TITLE}}</h5>
                 <h6 class="card-subtitle mb-2 text-muted"><small>{{$data->NAME}}</small></h6>
-<<<<<<< HEAD
                 <p class="card-text max-desc">{{$data->DESC}}</p>
-=======
-                <p class="card-text">{{$data->DESC}}</p>
->>>>>>> bc5d2507f61e489adfd625bd7106d80c8c236c87
                 <a href="/beasiswa/{{$data->ID_BEASISWA}}" class="text-right mb-2 mr-1">selengkapnya</a>
             </div>
         </div>
