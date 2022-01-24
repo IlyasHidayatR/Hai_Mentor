@@ -14,7 +14,7 @@
     </center>
     <div class="mb-4" style="font-family: Comfortaa">
         <h4><b>{{$beasiswa->TITLE}}</b></h4>
-        <h6 class="text-muted">{{$beasiswa->NAME}} - 04/08, 12:52</h6>
+        <h6 class="text-muted">{{$beasiswa->NAME}} - {{$beasiswa->created_at}} WIB</h6>
     </div>
     <div class="row" style="margin-bottom: 240px; font-family: Comfortaa">
         <div class="col-md-8 mr-4 mb-3">
@@ -26,11 +26,7 @@
             <h6><b>Beasiswa Lainnya</b></h6>
             <br>
             <ul class="list-group" style="list-style-type: none">
-<<<<<<< HEAD
             @forelse ($data1 as $data)
-=======
-            @forelse ($data as $data)
->>>>>>> 5e72c66617564d578a5da014120cebddf5d283f6
                 <li>
                     <div class="border-0">
                         <div class="mb-4">

@@ -21,9 +21,9 @@
     <div class="col-md-4 mb-4">
         <div class="card"
             style="width: 18rem; border-radius: 2em; box-shadow: 0 5px 10px rgba(0,0,0,.2);">
-            <img src="{{$data->IMG_PATH}}" class="card-img-top" alt="..." style="border-top-right-radius: 2em; border-top-left-radius: 2em">
+            <img src="{{$data->IMG_PATH}}" class="card-img-top" alt="..." style="border-top-right-radius: 2em; border-top-left-radius: 2em" width="100px" height="200px">
             <div class="card border-0 p-2" style="border-radius: 2em">
-                <h5 class="card-title">{{$data->TITLE}}</h5>
+                <h5 class="card-title max-title">{{$data->TITLE}}</h5>
                 <h6 class="card-subtitle mb-2 text-muted"><small>{{$data->NAME}}</small></h6>
                 <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -31,11 +31,7 @@
                             d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                     </svg> {{$data->LOCATION}}</p>
                 <p class="card-text text-muted">ditutup pada {{$data->END_DATE}}</p>
-<<<<<<< HEAD
                 <a href="karir/{{$data->ID_KARIR}}" class="text-right mb-2 mr-1">selengkapnya</a>
-=======
-                <a href="karir/{{$data->ID_KARIR}}" class="text-right">selengkapnya</a>
->>>>>>> 5e72c66617564d578a5da014120cebddf5d283f6
             </div>
         </div>
     </div>

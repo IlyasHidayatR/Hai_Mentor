@@ -16,15 +16,9 @@ class KarirController extends Controller
 
     public function detail($id){
         $karir = Karir::find($id);
-<<<<<<< HEAD
         $data1 = Karir::paginate(4);
         return view("karir.detailkarir",compact('karir'),
         compact('data1'));
-=======
-        $data = Karir::all();
-        return view("karir.detailkarir",compact('karir'),
-        compact('data'));
->>>>>>> 5e72c66617564d578a5da014120cebddf5d283f6
     }
 
     public function searchKarir(Request $request)
