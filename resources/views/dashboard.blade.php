@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <title>@yield('judul')</title>
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -26,13 +28,17 @@
             -webkit-line-clamp: 1;
             -webkit-box-orient: vertical;
             }
+
+            .dropdown:hover>.dropdown-menu {
+            display: block;
+            }
         </style>
     </head>
     <body>
         <!-- navbar -->
         <header>
             <div>
-                <nav class="navbar navbar-expand-lg navbar-dark navbar-default" style="background-color: #0A2E54; padding: 14px 16px">
+                <nav class="navbar navbar-expand-lg navbar-dark navbar-default fixed-top" style="background-color: #0A2E54; padding: 14px 16px">
                     <img src="https://haimentor.com/webs/img/logo-white.png" alt="" width="140px" height="30px">
                     <button class="navbar-toggler order-3 mr-1" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -71,7 +77,7 @@
         </header>
         <!-- bagian isi -->
         <main>
-            <div class="container" style="background-color: white">
+            <div class="container" style="background-color: white; margin-top: 110px">
                 @yield('content')
             </div>
         </main>

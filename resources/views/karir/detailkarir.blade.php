@@ -1,9 +1,12 @@
 @extends('dashboard')
+@section('judul')
+    {{$karir->TITLE}}
+@endsection
 @section('content')
     <center>
         <form action="/search/karir" method="GET" class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-4" style="margin-bottom: 60px">
             <div class="input-group mr-3 w-50 border rounded" style="border-color: #0A2E54">
-                <input class="form-control border-end-0 border rounded" type="search" placeholder="Search" id="example-search-input" name="searchkarir">
+                <input class="form-control border-end-0 border rounded" type="search" placeholder="Cari Karir Lainnya" id="example-search-input" name="searchkarir">
                 <span class="input-group-append">
                     <button class="btn btn-outline-secondary border-left-0 border-bottom-0 border-top-0 border rounded" style="margin-left: -40px" type="submit">
                         <i class="fa fa-search"></i>
@@ -23,7 +26,7 @@
             <p>{{$karir->DESC}}</p>
             <h4 class="mt-2 mb-3"><b>Persyaratan</b></h4>
             <p>{{$karir->DESC}}</p>
-            <h4 class="mt-2 mb-3"><b>Benifit</b></h4>
+            <h4 class="mt-2 mb-3"><b>Benefit</b></h4>
             <p>{{$karir->DESC}}</p>
         </div>
         <div class="col-md">
