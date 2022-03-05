@@ -17,11 +17,7 @@ use App\Http\Controllers\PelatihanController;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
-});
-
-Route::get('/detailbeasiswa', function () {
-    return view('beasiswa.detailbeasiswa');
+    return view('dashboard1');
 });
 
 Route::get('/beasiswa', [BeasiswaController::class, 'index']);
@@ -35,3 +31,9 @@ Route::get('/search/karir', [KarirController::class, 'searchKarir']);
 Route::get('/pelatihan', [PelatihanController::class, 'index']);
 Route::get('/pelatihan/{id}', [PelatihanController::class, 'detail']);
 Route::get('/search/pelatihan', [PelatihanController::class, 'searchPelatihan']);
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';

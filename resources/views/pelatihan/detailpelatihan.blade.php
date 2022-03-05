@@ -1,4 +1,4 @@
-@extends('dashboard')
+@extends('dashboard1')
 @section('judul')
     {{$pelatihan->TITLE}}
 @endsection

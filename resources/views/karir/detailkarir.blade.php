@@ -1,4 +1,4 @@
-@extends('dashboard')
+@extends('dashboard1')
 @section('judul')
     {{$karir->TITLE}}
 @endsection
