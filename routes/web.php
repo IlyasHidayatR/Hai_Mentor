@@ -16,8 +16,10 @@ use App\Http\Controllers\PelatihanController;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard1');
+Route::get('/', [BeasiswaController::class, 'index']);
+
+Route::get('/admin', function () {
+    return view('admin/data');
 });
 
 Route::get('/beasiswa', [BeasiswaController::class, 'index']);
