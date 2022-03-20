@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Admin | Hai Mentor</title>
 
     <!-- Custom fonts for this template-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -32,10 +32,11 @@
     <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
 
     <!-- Page level plugins -->
-    <script src="{{ asset('js/chart.js/Chart.min.js') }}"></script>
+    <script src="{{ asset('js/Chart.min.js') }}"></script>
 
     <!-- Page level custom scripts -->
     <script src="{{ asset('js/demo/chart-area-demo.js') }}"></script>
+    <script src="{{ asset('js/demo/chart-pie-demo.js') }}"></script>
     <script src="{{ asset('js/demo/chart-lingkaran.js') }}"></script>
 
 </head>
@@ -49,11 +50,11 @@
         <ul class="navbar-nav sidebar shadow-sm accordion" style="background-color: white" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                 <div class="sidebar-brand-icon">
                 <img src="https://haimentor.com/webs/img/logo-white.png" alt="" width="100px" height="20px">
                 </div>
-                <div class="sidebar-brand-text mx-3" style="color:black">Admin</div>
+                <!-- <div class="sidebar-brand-text mx-3" style="color:black">Admin</div> -->
             </a>
 
             <!-- Divider -->
@@ -61,7 +62,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" style="color:black" href="index.html">
+                <a class="nav-link" style="color:black" href="#">
                 <i class="fas fa-user-graduate"></i>
                 <span>Dashboard</span></a>
             </li>

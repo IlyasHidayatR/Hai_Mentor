@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BeasiswaController;
 use App\Http\Controllers\KarirController;
 use App\Http\Controllers\PelatihanController;
+use App\Http\Controllers\Admin\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,9 +19,7 @@ use App\Http\Controllers\PelatihanController;
 
 Route::get('/', [BeasiswaController::class, 'index']);
 
-Route::get('/admin', function () {
-    return view('admin/data');
-});
+Route::get('/admin', [AdminController::class, 'index']);
 
 Route::get('/beasiswa', [BeasiswaController::class, 'index']);
 Route::get('/beasiswa/{id}', [BeasiswaController::class, 'detail']);
